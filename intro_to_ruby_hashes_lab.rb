@@ -15,7 +15,7 @@ def id_generator
 end
 
 def my_hash_creator(key, value)
-  new_hash = Hash.new do |key, value|
+  new_hash = Hash.new do |hash, key|
     hash[key] = {name: "Grace Hopper", 1: 2}
 end
 
