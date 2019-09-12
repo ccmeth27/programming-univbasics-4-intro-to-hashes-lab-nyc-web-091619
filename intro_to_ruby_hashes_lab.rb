@@ -1,25 +1,31 @@
 def new_hash
-  # return an empty hash
+  Hash.new{}
 end
 
 def my_hash
-  # return a valid hash with any key/value pair of your choice
+  cars = {:car => "Toyota", :color => "Blue"}
 end
 
 def pioneer
-  # return a hash with a key of :name and a corresponding value of 'Grace Hopper'
+  pio = {:name => "Grace Hopper"}
 end
 
 def id_generator
-  # return a hash with a key :id assigned to positive integer
+  identity = {:id => 5}
 end
 
 def my_hash_creator(key, value)
-  # return a hash that includes the key and value parameters passed into this method
+  h = Hash.new{}
+  h[:name] = "Grace Hopper"
+  h[1] = 2
+  #h = Hash[:name => 'Grace Hopper', 1 => 2]
+  #h.select{|key,value| key == :name}
+  #h.select{|key,value| key == 1}
 end
 
+
 def read_from_hash(hash, key)
-  # return the correct value using the hash and key parameters
+  
 end
 
 def update_counting_hash(hash, key)
