@@ -18,8 +18,7 @@ def my_hash_creator(key, value)
   new_hash = Hash.new do |hash, key|
     hash[key] = {name: "Grace Hopper", 1: 2}
 end
-new_hash[:name]
-new_hash[:1]
+
 
 
 def read_from_hash(hash, key)
