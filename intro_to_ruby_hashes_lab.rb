@@ -15,12 +15,11 @@ def id_generator
 end
 
 def my_hash_creator(key, value)
-  new_hash = Hash.new{ |hash, key| hash[key] = "#{key}" }
-  #(name: 'Grace Hopper')
-  new_hash[1] = 2
+  new_hash = Hash.new{}
+  my_hash_creator(:name, 'Grace Hopper')
+  my_hash_creator(1, 2)
 end
-my_hash_creator(:name, 'Grace Hopper')
-my_hash_creator(1, 2)
+new_hash
 
 
 def read_from_hash(hash, key)
