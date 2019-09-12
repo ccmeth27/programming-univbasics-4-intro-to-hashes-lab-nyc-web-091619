@@ -16,7 +16,7 @@ end
 
 def my_hash_creator(key, value)
   new_hash = {}
-  p new_hash
+  return new_hash
 end
 my_hash_creator(:name, 'Grace Hopper')
 my_hash_creator(1, 2)
