@@ -19,7 +19,7 @@ def my_hash_creator(key, value)
   second_hash = {1 => 2}
 end
 first_hash[:name]
-second_hash[1]
+#second_hash[1]
 
 def read_from_hash(hash, key)
   
