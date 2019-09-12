@@ -22,7 +22,7 @@ end
 
 
 def read_from_hash(hash, key)
-  
+  person = {:name => "Steve", 'name' => "Tziki"
 end
 
 def update_counting_hash(hash, key)
