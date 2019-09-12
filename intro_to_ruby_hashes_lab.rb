@@ -16,7 +16,7 @@ end
 
 def my_hash_creator(key, value)
   first_hash = {:name => 'Grace Hopper'}
-  second_hash = { 1 => 2 }
+  second_hash = {1 => 2}
 end
 first_hash[:name]
 second_hash[1]
