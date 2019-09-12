@@ -22,8 +22,12 @@ end
 
 
 def read_from_hash(hash, key)
-  person = {:name => "Steve", 'name' => "Tziki"
+  person1 = {:name => 'Steve'} 
+  person2 = {'name' => 'Tziki'}
 end
+read_from_hash(person1, :name)
+read_from_hash(person2, 'name')
+
 
 def update_counting_hash(hash, key)
   # given a hash an a key as parameters, return an updated hash
