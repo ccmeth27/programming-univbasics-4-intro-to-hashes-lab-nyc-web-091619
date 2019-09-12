@@ -15,12 +15,12 @@ def id_generator
 end
 
 def my_hash_creator(key, value)
-  first_hash = {}
-  if first_hash[:name]
-  second_hash = {1 => 2}
+  first_hash = Hash.new
+  first_hash[:name] = 'Grace Hopper'
+  first_hash[1] = 2
 end
 first_hash[:name]
-#second_hash[1]
+first_hash[1]
 
 def read_from_hash(hash, key)
   
