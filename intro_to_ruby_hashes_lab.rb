@@ -17,7 +17,7 @@ end
 def my_hash_creator(key, value)
   new_hash = {
     name: 'Grace Hopper',
-    "1" => "2" 
+    '1' => 2 
   }
 end
 new_hash[:name]
