@@ -15,7 +15,7 @@ def id_generator
 end
 
 def my_hash_creator(key, value)
-  puts Hash.new(key, value)
+  Hash.new{}
 end
 my_hash_creator(name: 'Grace Hopper')
 my_hash_creator(1 => 2)
